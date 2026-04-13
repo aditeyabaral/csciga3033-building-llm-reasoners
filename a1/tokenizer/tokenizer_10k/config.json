@@ -1,0 +1,7 @@
+{
+  "vocab_size": 10000,
+  "num_merges": 9743,
+  "special_tokens": [
+    "<|endoftext|>"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "checkpoint": "./saved_models/baseline_10k_[bs=128]/best_model.pt",
+    "model_config": {
+      "vocab_size": 10000,
+      "context_length": 256,
+      "d_model": 512,
+      "num_layers": 4,
+      "num_heads": 16,
+      "d_ff": 1344,
+      "rope_theta": 10000.0,
+      "use_rope": true,
+      "eps": 1e-05,
+      "use_norm": true,
+      "norm_position": "pre",
+      "ffn_type": "swiglu",
+      "tied_weights": true
+    },
+    "generation_params": {
+      "max_tokens": 256,
+      "temperature": 0.8,
+      "top_p": 0.9
+    }
+  },
+  "samples": [
+    {
+      "prompt": "Once upon a time",
+      "greedy_output": "Once upon a time, there was a little girl named Lily. She had a big, red ball. Lily loved to play with her ball every day. One day, she saw a boy named Tom. Tom was sad because he had no toys to play with.\nLily wanted to help Tom. She thought of a plan. She would give Tom a toy to play with. Lily went to Tom and said, \"I have a toy for you. Let's play together!\" Tom was very happy.\nLily and Tom played with the big, red ball. They had lots of fun. Tom was not sad anymore. They became good friends and played together every day. And they lived happily ever after.\n<|endoftext|>",
+      "nucleus_output": "Once upon a time, there was a big, hairy dog named Max. Max was very friendly and loved to play with his friends. One day, Max's owner gave him a new toy. It was a big, red ball. Max was very happy and excited to play with the ball.\nMax's owner saw the ball and said, \"Max, I will offer you this ball for a fun game!\" Max's owner gave him the ball and Max played with it all day. He loved the big, red ball and had lots of fun.\nThe next day, Max's owner came home with a surprise. She had a big bag of candy for Max to chew on. Max was so happy to see all the candy and enjoyed it. He knew that he was going to have more fun with his owner. And from that day on, Max knew that sometimes, unexpected things can be very fun.\n<|endoftext|>"
+    },
+    {
+      "prompt": "In a faraway land",
+      "greedy_output": "In a faraway land, there was a little girl named Lily. She had a big, red ball. Lily loved to play with her ball every day. She would throw it, kick it, and bounce it all around her yard.\nOne day, Lily saw a small, sad bird sitting on a tree branch. The bird looked very sad. Lily wanted to help the bird, so she decided to release her ball from the tree. She threw the ball up high, and the bird caught it.\nThe bird was very happy and thanked Lily. They became good friends and played together every day. The bird would sing a beautiful song, and Lily would repeat it. They had lots of fun and were always happy.\n<|endoftext|>",
+      "nucleus_output": "In a faraway land, there was a little girl named Lily. Lily loved to help her mom and dad. One day, she saw a big, beautiful bird in a tree. The bird had many colors on its wings. Lily wanted to help the bird.\nLily had an idea. She took a small piece of paper and gave it to the bird. The bird flew down and started to fold the paper into a beautiful shape. Lily was happy to see the bird fly again.\nLily showed the bird the folded paper. The bird looked at the paper and then at the bird. The bird was now a beautiful butterfly! Lily felt proud of her work. She showed the bird to her mom and dad. They loved it and knew that Lily had done a good thing.\n<|endoftext|>"
+    },
+    {
+      "prompt": "There was a little",
+      "greedy_output": "There was a little girl named Lily. She loved to play with her toys and eat yummy food. One day, she found a big, red apple in her kitchen. She was very happy and wanted to eat it.\nLily's mom saw her with the apple and said, \"Lily, don't eat that apple! It's not good for you.\" But Lily did not listen. She took a big bite of the apple. It was so yummy!\nLily's mom saw her eating the apple and said, \"Lily, you should have listened to me. Now you know that not all apples are good for you.\" Lily felt sad and knew she should have listened to her mom. From that day on, she always listened to her mom and never ate anything bad again.\n<|endoftext|>",
+      "nucleus_output": "There was a little girl named Mia. She lived in a small house with her mom and dad. Mia loved to play with her toys and look at the pretty ornaments on the tree in her room. One day, Mia found a big, round, and shiny ornament. She thought it was very pretty.\nMia showed the ornament to her mom and dad. They smiled and said it was very special. Mia wanted to keep the ornament, but her mom and dad said it was too expensive. Mia was sad, but she knew her mom and dad would love the ornament.\nOne day, Mia saw a small, sad boy who didn't have a ornament. Mia wanted to help him. She thought of a plan. Mia told her mom and dad that they could take the boy to the park. They all went to the park and brought a new ornament for the boy. The boy was very happy and thanked Mia and her family. Mia felt good that she could help the boy.\n<|endoftext|>"
+    },
+    {
+      "prompt": "One day, a brave",
+      "greedy_output": "One day, a brave little girl named Lily went to the park. She saw a big tree with a hole in it. Lily wanted to see what was inside the hole. She put her hand in the hole and felt something soft.\nLily pulled her hand out of the hole. She saw a small, cute puppy. The puppy was very cute and soft. Lily was happy to find a new friend. She took the puppy home and named him Spot.\nEvery day, Lily and Spot played together. They had lots of fun. Lily would always remember the brave little puppy and the fun they had at the park. And they lived happily ever after.\n<|endoftext|>",
+      "nucleus_output": "One day, a brave girl named Mia went to the beach. She saw a big surf. Mia was very happy. She wanted to play on the surf. She asked her friend Tom to come with her.\n\"Let's play on the surf!\" said Tom. Mia was excited. They played on the surf all day. They had lots of fun.\nBut then, a big wave came. The wave was very strong. It pushed Mia and Tom off the surf. They tried to hold on, but the waves were too strong. Mia and Tom were sad.\n\"I'm sorry, Mia,\" said Tom. \"I didn't mean to scare you.\"\n\"It's okay, Tom,\" said Mia. \"We can still play on the beach. But next time, be more careful.\"\nThey hugged and played on the beach. They were happy again. They learned to be more careful on the surf.\n<|endoftext|>"
+    },
+    {
+      "prompt": "The magical forest",
+      "greedy_output": "The magical forest was full of surprises and surprises.\n<|endoftext|>",
+      "nucleus_output": "The magical forest became a happy place, and all the animals lived happily ever after.\n<|endoftext|>"
+    },
+    {
+      "prompt": "A long time ago",
+      "greedy_output": "A long time ago, there was a little girl named Lily. She was very excited because she was going to the park with her mom. Lily loved to play on the swings and slide.\nAt the park, Lily saw a big, red ball. She wanted to play with it. She asked her mom, \"Can I play with the ball, please?\" Her mom said, \"Yes, but be careful.\"\nLily played with the ball and had lots of fun. She was very happy. When it was time to go home, Lily said, \"Bye, ball! I will come back to play with you again.\" The ball said, \"Bye, Lily! I will wait for you.\"\n<|endoftext|>",
+      "nucleus_output": "A long time ago, there was a little girl named Lily. She had a pet dog named Max. Lily and Max liked to play together.\nOne day, Lily and Max went to the park. They saw a big slide. Lily wanted to go on the slide, but she did not want to go alone. Max was persistent. He tried to climb up the slide, but he slipped and fell. Lily was sad and cried.\nMax's friend, a bird named Sam, saw what happened. Sam said, \"Max, it's okay. Let's go play on the slide.\" Max and Sam went to the slide together. They were happy and played all day.\n<|endoftext|>"
+    },
+    {
+      "prompt": "It was a sunny day when",
+      "greedy_output": "It was a sunny day when the sun was shining. A little girl named Lily went outside to play. She saw a big, red ball in the grass. Lily wanted to play with the ball, but it was too far away.\nLily had an idea. She would use her hands to reach the ball. She tried and tried, but she could not reach it. Then, she had an idea. She would use her hands to reach the ball.\nLily tried to reach the ball, but it was still too far away. She felt sad. Then, a friendly dog came to help her. The dog stood on its back legs and reached the ball. Lily was so happy! She played with the dog and the ball all day long.\n<|endoftext|>",
+      "nucleus_output": "It was a sunny day when the sun was shining. It was a beautiful day.\nA little girl named Sue was playing outside with her friends. She saw a big tree and wanted to climb it. She said, \"I want to climb this tree!\" Her friends said, \"Be careful, Sue!\"\nSue climbed the tree, but then she started to fall. Her friends ran to help her. They caught her just in time. Sue was safe and happy. She thanked her friends for saving her. From that day on, they all played together and had lots of fun.\n<|endoftext|>"
+    },
+    {
+      "prompt": "The little girl loved to",
+      "greedy_output": "The little girl loved to play with her toys and make up stories. One day, she found a big box in her room. She was very excited and wanted to see what was inside.\nShe opened the box and found a lot of colorful balls. She was so happy and started to play with them. She threw the balls up in the air and watched them bounce. She laughed and clapped her hands as she played.\nBut then, something unexpected happened. The balls started to bounce all by themselves! They bounced higher and higher, and they were so happy. The little girl was surprised but she kept playing with the balls. She had the best day ever with her new magic balls.\n<|endoftext|>",
+      "nucleus_output": "The little girl loved to climb the tree. She would go up and down, up and down. She loved to laugh and laugh all day long. One day, she saw a big, red ball in the park. She wanted to play with it.\nThe little girl called to the big, red ball, \"Ball, let's play!\" The ball did not move. It just sat there. The little girl was sad. She wanted to play with the big, red ball.\nThen, something unexpected happened. The ball started to grow bigger and bigger. It got bigger and bigger. The little girl was surprised. The big, red ball was not a ball at all. It was a big, red balloon! The little girl laughed and played with the big, red balloon all day.\n<|endoftext|>"
+    }
+  ]
+}
